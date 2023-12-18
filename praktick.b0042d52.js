@@ -1,0 +1,2 @@
+const t={start:document.querySelector(".js-start"),stop:document.querySelector(".js-stop"),body:document.querySelector("body")};t.start.addEventListener("click",(function(o){o.target.disabled=!0,t.stop.disabled=!1,e=setInterval((()=>{t.body.style.backgroundColor=`#${Math.floor(16777215*Math.random()).toString(16).padStart(6,0)}`}),1e3)})),t.stop.addEventListener("click",(function(o){const d=o.target;clearInterval(e),d.disabled=!0,t.start.disabled=!1}));let e=null;t.stop.disabled=!0;
+//# sourceMappingURL=praktick.b0042d52.js.map

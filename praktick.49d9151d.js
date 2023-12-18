@@ -1,0 +1,2 @@
+!function(){var t={start:document.querySelector(".js-start"),stop:document.querySelector(".js-stop"),body:document.querySelector("body")};t.start.addEventListener("click",(function(a){a.target.disabled=!0,t.stop.disabled=!1,e=setInterval((function(){t.body.style.backgroundColor="#".concat(Math.floor(16777215*Math.random()).toString(16).padStart(6,0))}),1e3)})),t.stop.addEventListener("click",(function(a){var o=a.target;clearInterval(e),o.disabled=!0,t.start.disabled=!1}));var e=null;t.stop.disabled=!0}();
+//# sourceMappingURL=praktick.49d9151d.js.map
